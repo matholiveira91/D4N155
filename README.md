@@ -7,9 +7,12 @@ It's a tool of security audit for smart wordlist and Google hacking attack
 
 # Use
 Need to:[Python3.6](https://realpython.com/installing-python/),
-[Bash (GNU Bourne-Again SHell)](https://www.gnu.org/software/bash/#download)
+[Bash (GNU Bourne-Again SHell)](https://www.gnu.org/software/bash/#download), [pip3](https://pip.pypa.io/en/stable/installing/)
 
 Optional: [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+
+> You are advised to use proxychains for scan
 
 ```bash
 git clone https://github.com/adasecurity/D4N155.git
@@ -25,8 +28,6 @@ cd D4N155-master
 pip3 install -r requirements.txt
 bash main
 ```
-
-> You are advised to use proxychains for scan
 
 [![asciicast](https://asciinema.org/a/222527.svg)](https://asciinema.org/a/222527)
 
