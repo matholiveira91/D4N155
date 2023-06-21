@@ -2,6 +2,7 @@ beautifulsoup4==4.6.3
 google==2.0.1
 
 numpy==1.22.0
-requests==2.20.1
+requests==2.31.0
 
 mechanicalsoup
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
